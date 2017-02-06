@@ -1,6 +1,6 @@
 Applications :
 1)BFS :
- a)Peer to Peer networks (where the nodes in the networs share the resources without the need for a centralised node eg: BitTorrent), BFS is used to find
+ a)Peer to Peer networks (where the nodes in the networks share the resources without the need for a centralised node eg: BitTorrent), BFS is used to find
    the neighbouring nodes in the network.
  b)Web crawlers in search engine:start from source page and follow all the hyper links to index pages.
  c)social networking website :FACEBOOK!
