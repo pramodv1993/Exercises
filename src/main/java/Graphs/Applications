@@ -8,3 +8,14 @@ Applications :
  e)GARBAGE COLLECTIONS : object instances that is used at multiple points
  f)to determine if there is a path between 2 vertices
 
+2)DFS :
+a)Detecting a cycle in a graph.(give example with visited concept).
+
+b)Topological sort(For Directed Acyclic Graph) :Mainly used in Job scheduling-why?
+Topological sort says : If in a graph , there contains  edge (x,y) and (x,z) , then,
+in the ordering (result), the vertex 'x' must appear before 'y'/'z'.
+How do we modify our DFS to accomplish this?-tempory stack usage
+
+c)Strongly Connected Component
+
+d)Find a path between 2 vertices
