@@ -1,0 +1,22 @@
+DP:
+This technique involves solving a complex problem by dividing into smaller sub problems like divide and conquer.
+The solutions to these subproblems are used to solve the final bigger problem.
+This can be done in 2 ways:
+1)Top-Down approach(Recursion)-where we try and find solutions to bigger problem
+2)Bottom-up approach(where we start from the smallest solution , store the same and use it to solve bigger problem)
+ In the second way, we try to build a tabular structure where we store the solutions to smaller sub-problems and use the same for future reference.
+  ex: Fibonacci of numbers for bottom up approach
+  f[0] = 0;f[1] = 1;
+  void fibo(int n)
+  {
+  if(f[n] != -1)
+    return f[n];
+  else
+  {
+   for(int i = 0 ; i< n ; i++)
+    {
+
+    f[i] = f[i-1]+ f[i-2];
+    }
+  }
+  }
