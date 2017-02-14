@@ -1,0 +1,14 @@
+Threads-
+1.Each thread is associated with a priority based on the which the thread schedular in the JVM executes the thread with a higher priority
+2.JVM is not obliged to honor the thread when it hints the JVM that it should be considered
+3.Thread States:
+NEW - not started
+RUNNING - being executed by the JVM
+BLOCKED - is waiting to obtain the lock so that it can get in to the monitor and execute the piece of code that is shared across threads
+WAITING - waiting to get notify by other threads
+TIMED_WAITING - sleep,blocked for join completion
+TERMINATED - end
+
+JOIN : when the join() method is invoked for a thread, it other threads will start only after the the current thread is done with its execution
+
+

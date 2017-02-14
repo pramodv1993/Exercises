@@ -1,8 +1,10 @@
+package Thread;
+
 /**
  * Created by pramodvadiraj on 13/02/17.
  */
 
-//depicting usages of Threads, synchronized,join
+//depicting usages of Thread.Threads, synchronized,join
 //join-executes the current thread , before going to the next thread
 //synchornized- only 1 thread can access the monitor at a time, can be block or method- either cases it uses the current object that was specified to
     //obtain the lock and then accesses the shared resource
