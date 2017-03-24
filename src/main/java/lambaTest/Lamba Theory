@@ -1,0 +1,30 @@
+JAVA 8
+U CAN HAVE DEFAULT IMPLEMENTATION FOR METHODS IN INTERFACE.
+BUT THERE SHOULD BE ONLY 1 ABSTRACT METHOD FOR THE INTERFACE TO BE CONSIDERED BY LAMBDAS
+use the annotation @FunctionInterface
+
+LAMBDAS:
+examples:
+fn = ()->sout("Hello World");
+fn2 = (int a) -> return a*2;
+fn2 = (int a, int b) -> a+b;
+myLamba = (int a)->{a*2;sout("2 statements");}
+
+//interface should have only 1 method without implementation but many methods with default implementations (default scope)
+interface myLambda
+{
+int foo(int a);
+default int foo2(){//asd}
+}
+
+
+FUNCTIONAL INTERFACES
+eg:
+Thread thread = new Thread(()->System.out.println("Part of run method"));
+
+@FunctionallInterface
+interface  myLambda
+{
+void func1();
+void func2();//error as there should be only 1 method without implementation
+}

@@ -9,6 +9,10 @@ WAITING - waiting to get notify by other threads
 TIMED_WAITING - sleep,blocked for join completion
 TERMINATED - end
 
+methods :
 JOIN : when the join() method is invoked for a thread, it other threads will start only after the the current thread is done with its execution
+yeild : hint the JVM that the thread is ready to be paused so that other threads can execute
+sleep : sleeps for specified amount of time
+interrupt: threads gets interrupted even if its any of the previously mentioned states
 
 
