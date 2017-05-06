@@ -34,21 +34,18 @@ public class ratInAMaze {
             res[x][y] = 1;
             if(solveMaze(inp,res,x+1,y))
                 return true;
-            if(solveMaze(inp,res,x,y+1))
+             if(solveMaze(inp,res,x,y+1))
                 return true;
             res[x][y] = 0;
             return false;
         }
         return false;
-
-
-
     }
 
     public static void main(String[] args) {
         mazeInput = new Integer[][]{{1,1,1,1},
                 {1,0,1,1},
-                {0, 1,1,1},
+                {1, 1,1,1},
                 {1, 1, 1, 1}};
        displayMaze(mazeInput);
         System.out.println("_________RESULT_________");
